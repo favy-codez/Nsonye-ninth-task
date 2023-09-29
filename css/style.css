@@ -34,14 +34,36 @@ form{
     gap: 30px;
 }
 
-input[type=text], input[type=email],input[type=password]{
+input[type=text]{
     width: 100%;
-    background-image: url('/images/user-solid.svg');
-    background-position: 1px 10px;
+    background-image: url('/images/bxs-user.svg');
     background-repeat: no-repeat;
-    padding-left: 40px;
+    padding: 10px 0 0 40px;
     border: none;
     border-bottom: 1px solid black;
+}
+
+input[type=password]{
+    width: 100%;
+    background-image: url('/images/bx-lock-alt.svg');
+    background-repeat: no-repeat;
+    padding: 10px 0 0 40px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input[type=email]{
+    width: 100%;
+    background-image: url('/images/bxs-envelope.svg');
+    background-repeat: no-repeat;
+    padding: 10px 0 0 40px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+::placeholder{
+    font-size: 17px;
+    padding: 0 0 10px 0;
 }
 
 .terms{
