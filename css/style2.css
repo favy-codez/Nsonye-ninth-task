@@ -13,12 +13,20 @@
     margin: 5rem auto;
 }
 
-input[type=text], input[type=password]{
+input[type=text]{
     width: 100%;
-    background-image: url('/images/user-solid.svg');
-    background-position: 1px 10px;
+    background-image: url('/images/bxs-user.svg');
     background-repeat: no-repeat;
-    padding-left: 40px;
+    padding: 10px 0 0 40px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input[type=password]{
+    width: 100%;
+    background-image: url('/images/bx-lock-alt.svg');
+    background-repeat: no-repeat;
+    padding: 10px 0 0 40px;
     border: none;
     border-bottom: 1px solid black;
 }
@@ -51,6 +59,9 @@ button{
     font-size: 1rem;
     padding: 10px 0;
     margin: 0 0 1.2rem 0;
+    background-color: rgb(22, 22, 189);
+    color: #fff;
+    border: none;
 }
 
 .terms{
@@ -67,5 +78,5 @@ a{
 }
 
 #member{
-    text-align: right;
+    text-align: center;
 }
