@@ -86,6 +86,24 @@ img{
     margin: 20px 0 0 0;
 }
 
+/* Hover section */
+a:hover{
+    color: #2577cd;
+    transition: .6s;
+}
+
+button:hover{
+    color: #fff;
+    background-color: #2577cd;
+    transition: .6s;
+}
+
+input[type=text], input[type=password]:focus{
+    border: none;
+    border-bottom: 1.3px solid black;
+    outline: none;
+}
+
 /* media query */
 @media screen and (max-width: 820px){
     .container{
