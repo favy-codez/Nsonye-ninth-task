@@ -131,5 +131,12 @@ img{
 }
 
 @media screen and (max-width: 280px){
-    
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .right{
+        width: 230px;
+    }
 }

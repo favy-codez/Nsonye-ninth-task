@@ -104,53 +104,58 @@ img{
 }
 
 @media screen and (max-width: 768px){
-    .container{
-        flex-direction: column-reverse;
-        gap: 3rem;
-        margin: 3rem auto;
-    }
-    h1{
-        text-align: center;
-    }
     .left{
-        width: 600px;
-    }
-    a{
-        font-size: 26px;
-    }
-    button{
-        margin: 2rem 0;
+        width: 340px;
     }
 }
 
 @media screen and (max-width: 540px){
     .left{
-        width: 400px;
+        width: 230px;
+    }
+    img{
+        width: 270px;
+    }
+    .container{
+        gap: 1rem;
     }
 }
 
 
 @media screen and (max-width: 414px){
-    .left{
-        width: 360px;
+    img{
+        width: 200px;
     }
-    .terms a, .terms{
-        font-size: 19px;
+    .left{
+        width: 180px;
+    }
+    ::placeholder{
+        font-size: 11px;
+    }
+    input[type=text]{
+        padding: 10px 0 0 30px;
+    }
+    
+    input[type=password]{
+        padding: 10px 0 0 30px;
+    }
+    
+    input[type=email]{
+        padding: 10px 0 0 30px;
+    }
+    .terms, .terms a{
+        font-size: 14px;
     }
 }
-
-@media screen and (max-width: 360px){
-    img{
-        width: 300px;
-    }
-    .right a{
-        font-size: 16px;
-    }
-    .left a{
-        font-size: 16px;
-    }
+@media screen and (max-width: 393px){
     .left{
-        width: 320px;
+        width: 160px;
+    }
+    .right{
+        width: 170px;
+    }
+    img{
+        width: 170px;
     }
 }
 
